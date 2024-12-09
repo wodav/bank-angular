@@ -5,7 +5,7 @@
 import { Transaction } from '../models/transaction';
 export interface Account {
   accountNumber?: number;
-  amount?: float;
+  amount?: GLfloat;
   currency?: string;
   dateOfCreation?: string;
   iban?: string;

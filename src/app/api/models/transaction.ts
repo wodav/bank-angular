@@ -5,7 +5,7 @@
 import { Account } from '../models/account';
 export interface Transaction {
   accounts?: Array<Account>;
-  amount: float;
+  amount: GLfloat;
   currency: string;
   dateOfCreation?: string;
   dateOfTransaction?: string;
